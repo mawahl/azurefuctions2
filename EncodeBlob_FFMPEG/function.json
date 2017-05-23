@@ -1,0 +1,19 @@
+{
+  "bindings": [
+    {
+      "name": "inputBlob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "input/{fileName}",
+      "connection": "adarshtest"
+    },
+    {
+      "name": "outputBlob",
+      "type": "blob",
+      "direction": "InOut",
+      "path": "output/{fileName}.wav",
+      "connection": "adarshtest"
+    }
+  ],
+  "disabled": false
+}

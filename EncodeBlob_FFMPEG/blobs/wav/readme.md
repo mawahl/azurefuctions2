@@ -1,0 +1,3 @@
+## THIS FOLDER IS FOR CACHING FRAGBLOBS BEING PROCESSED
+
+### Output WAV files are saved to /wav
